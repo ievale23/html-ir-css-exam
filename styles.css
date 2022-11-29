@@ -25,7 +25,7 @@ nav {
   padding: 2em 0 0 1.5em;
 }
 
-#pink-text {
+.pink-text {
   grid-area: 1 / 1 / 2 / 2;
   display: grid;
   align-items: center;
@@ -46,7 +46,7 @@ nav {
   font-size: 2.2em;
 }
 
-#grey-text {
+.grey-text {
   grid-area: 3 / 1 / 5 / 2;
   color: gray;
 }
@@ -67,7 +67,7 @@ nav {
   padding: 2em 1.5em;
 }
 
-#orange h1 {
+#orange h2 {
   padding-bottom: 10px;
 }
 
@@ -80,4 +80,16 @@ nav {
 
 #companies img {
   max-width: 100%;
+}
+
+#auction {
+  padding: 1.5em;
+}
+
+#auction h2 {
+  padding-bottom: 10px;
+}
+
+#auction a {
+  color: gray;
 }
