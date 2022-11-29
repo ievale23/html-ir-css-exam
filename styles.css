@@ -19,3 +19,43 @@ nav {
 #hamburger {
   width: 30px;
 }
+
+#sign-up {
+  display: grid;
+  padding: 2em 0 0 1.5em;
+}
+
+#pink-text {
+  grid-area: 1 / 1 / 2 / 2;
+  display: grid;
+  align-items: center;
+  font-size: 0.8em;
+  color: rgb(238, 47, 155);
+}
+
+#baibokas {
+  grid-area: 1 / 2 / 4 / 3;
+}
+
+#baibokas img {
+  width: 170%;
+}
+
+#h1 {
+  grid-area: 2 / 1 / 3 / 2;
+  font-size: 2.2em;
+}
+
+#grey-text {
+  grid-area: 3 / 1 / 5 / 2;
+  color: gray;
+}
+
+#button {
+  grid-area: 5 / 1 / 6 / 2;
+  height: 50px;
+  text-align: center;
+  border: solid 2px orangered;
+  border-radius: 50px;
+  width: 60%;
+}
