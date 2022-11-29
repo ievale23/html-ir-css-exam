@@ -70,3 +70,14 @@ nav {
 #orange h1 {
   padding-bottom: 10px;
 }
+
+#companies {
+  padding: 4em 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#companies img {
+  max-width: 100%;
+}
