@@ -93,3 +93,57 @@ nav {
 #auction a {
   color: gray;
 }
+
+#gallery {
+  padding: 1.5em;
+  display: flex;
+  gap: 30px;
+}
+
+.gallery-card {
+  width: 290px;
+  align-items: center;
+  background-color: rgb(241, 240, 240);
+  border-radius: 5%;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+}
+
+.series {
+  color: orangered;
+  font-size: 0.85em;
+  padding: 3px;
+}
+
+.bid {
+  color: rgb(102, 101, 101);
+  font-size: 0.85em;
+  text-align: end;
+  padding: 3px;
+}
+
+.name,
+.price {
+  font-size: 1.5em;
+  padding: 3px;
+}
+
+.price,
+.time {
+  text-align: end;
+}
+
+.price::before {
+  content: url(assets/eth.svg);
+  padding: 0 8px 0 0;
+}
+
+.number,
+.time {
+  font-size: 1.3em;
+  color: rgb(102, 101, 101);
+}
