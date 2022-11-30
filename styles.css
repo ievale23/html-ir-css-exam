@@ -147,3 +147,41 @@ nav {
   font-size: 1.3em;
   color: rgb(102, 101, 101);
 }
+
+#sign-up-2 {
+  padding: 1.5em;
+  display: grid;
+}
+
+.pink-text-2 {
+  grid-area: 1 / 1 / 2 / 3;
+  display: grid;
+  align-items: center;
+  font-size: 0.8em;
+  color: rgb(238, 47, 155);
+}
+
+#title {
+  grid-area: 2 / 1 / 5 / 3;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+#grey-text-2 {
+  grid-area: 5 / 1 / 7 / 3;
+  color: gray;
+}
+
+#green-nft-item {
+  grid-area: 3 / 3 / 9 / 4;
+}
+
+#button-2 {
+  grid-area: 7 / 1 / 8 / 3;
+  height: 50px;
+  text-align: center;
+  border: solid 2px orangered;
+  border-radius: 50px;
+  width: 60%;
+  background-color: white;
+}
