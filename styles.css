@@ -176,6 +176,10 @@ nav {
   grid-area: 3 / 3 / 9 / 4;
 }
 
+#green-nft-item img {
+  width: 220%;
+}
+
 #button-2 {
   grid-area: 7 / 1 / 8 / 3;
   height: 50px;
@@ -184,4 +188,23 @@ nav {
   border-radius: 50px;
   width: 60%;
   background-color: white;
+}
+
+#media {
+  padding: 1.5em;
+}
+
+#media img {
+  padding-bottom: 20px;
+}
+
+#media div:nth-child(2) {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+#media-icons {
+  display: flex;
+  width: 15px;
+  gap: 10px;
 }
