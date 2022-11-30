@@ -233,6 +233,16 @@ footer div {
 
   #menu-items {
     display: flex;
+    gap: 30px;
+  }
+
+  #menu-items a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  #menu-items a:nth-child(4) {
+    color: pink;
   }
 
   #sign-up {
@@ -315,5 +325,14 @@ footer div {
 
   #button-2 {
     grid-area: 4 / 1 / 5 / 2;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  footer div {
+    padding: 5px;
   }
 }
